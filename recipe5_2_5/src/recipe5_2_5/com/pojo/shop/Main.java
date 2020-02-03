@@ -26,14 +26,6 @@ public class Main {
 		cart2.addItem(dvdrw);
 		System.out.println("shopping cart 2 contains " + cart2.getItems());
 		
-		/*
-AAA 2.5
-CD-RW 1.5
-DVD-RW 3.0
-shopping cart 1 contains [AAA 2.5, CD-RW 1.5]
-shopping cart 2 contains [AAA 2.5, CD-RW 1.5, DVD-RW 3.0]
-
-		 * */
 	}
 
 }
