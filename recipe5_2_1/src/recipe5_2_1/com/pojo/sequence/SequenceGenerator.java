@@ -1,4 +1,4 @@
-package recipe5_2_1.com.pojo.test;
+package recipe5_2_1.com.pojo.sequence;
 
 import java.util.concurrent.atomic.AtomicInteger;
 

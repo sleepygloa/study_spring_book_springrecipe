@@ -1,4 +1,4 @@
-package recipe5_2_1.com.pojo.test;
+package recipe5_2_1.com.pojo.sequence;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
