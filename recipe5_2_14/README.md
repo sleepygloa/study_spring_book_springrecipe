@@ -2,14 +2,19 @@
 
 ##### 메인
 
-1. Aspect, pointcut 사용
+1. Aspect, pointcut, joinPoint 정보불러오기.
 
-- Before, After, AfterThrowing, AfterReturning, Around
-
-- 실행전과 후에 실행할 내용을 작성할 수 있다.
-- AfterReturning을 사용하여 성공처리시만, AfterThrowing 예외처리시만 사용할 수 있다.
-- 모든 내용을 어울르는 Around가 있지만, 상세 세부내역 정의를 잊지말자.
-
- 
+		log.info("Join point kind : {}", joinPoint.getKind());
+		log.info("Signature declaring type : {} ", joinPoint.getSignature().getDeclaringTypeName());
+		log.info("Signature name : {}", joinPoint.getSignature().getName());
+		log.info("Arguments : {}", Arrays.toString(joinPoint.getArgs()) );
+		log.info("Target class : {} ", joinPoint.getTarget().getClass().getName());
+		log.info("This class : {}", joinPoint.getThis().getClass().getName());
 		
+그러나 안됨.
+
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+
 ##### 서브

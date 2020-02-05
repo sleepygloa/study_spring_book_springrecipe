@@ -2,8 +2,6 @@ package recipe5_2_14.com.pojo.calculator;
 
 import java.util.Arrays;
 
-import org.apache.commons.logging.Log;
-import org.apache.commons.logging.LogFactory;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.After;
@@ -12,17 +10,30 @@ import org.aspectj.lang.annotation.AfterThrowing;
 import org.aspectj.lang.annotation.Around;
 import org.aspectj.lang.annotation.Aspect;
 import org.aspectj.lang.annotation.Before;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 @Aspect
 @Component
 public class CalculatorLoggingAspect {
-	private Log log = LogFactory.getLog(this.getClass());
+	private Logger log = LoggerFactory.getLogger(this.getClass());
 	
 	//@Before("execution(* ArithmeticCalculator.add(..))")
 	@Before("execution(* *.*(..))")
 	public void logBefore(JoinPoint joinPoint) {
 		log.info("The method " + joinPoint.getSignature().getName() + "() begins with " + Arrays.toString(joinPoint.getArgs()));
+	}
+	
+	@Before("execution(* *.*(..))")
+	public void logJoinPoint(JoinPoint joinPoint) {
+		log.info("Join point kind : {}", joinPoint.getKind());
+		log.info("Signature declaring type : {} ", joinPoint.getSignature().getDeclaringTypeName());
+		log.info("Signature name : {}", joinPoint.getSignature().getName());
+		log.info("Arguments : {}", Arrays.toString(joinPoint.getArgs()) );
+		log.info("Target class : {} ", joinPoint.getTarget().getClass().getName());
+		log.info("This class : {}", joinPoint.getThis().getClass().getName());
+		
 	}
 	
 	
@@ -35,7 +46,7 @@ public class CalculatorLoggingAspect {
 	//특정경우에 작동
 	@AfterReturning("execution(* *.*(..))")
 	public void logAfterReturning(JoinPoint joinPoint) {
-		log.info("The method {}() ends with {} ", joinPoint.getSignature().getName(), result);
+		log.info("The method {}() ends with {} ", joinPoint.getSignature().getName(), "result");
 	}
 	
 	//예외발생시 사용
@@ -61,7 +72,7 @@ public class CalculatorLoggingAspect {
 			Object result = joinPoint.proceed();
 			log.info("The method {}() ends with ", joinPoint.getSignature().getName(), result);
 			return result;
-		}catch{
+		}catch(Exception e){
 			log.error("Illegal argument {} in ();", Arrays.toString(joinPoint.getArgs()), joinPoint.getSignature().getName());
 			throw e;
 		}
