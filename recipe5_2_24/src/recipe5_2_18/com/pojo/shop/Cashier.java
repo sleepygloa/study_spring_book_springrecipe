@@ -13,6 +13,7 @@ import javax.annotation.PreDestroy;
 import org.springframework.beans.factory.BeanNameAware;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.context.ApplicationEventPublisher;
 import org.springframework.context.MessageSource;
 import org.springframework.stereotype.Component;
 
@@ -21,6 +22,9 @@ public class Cashier implements BeanNameAware{
 	
 	@Autowired
 	private MessageSource messageSource;
+	
+	@Autowired
+	private ApplicationEventPublisher applicationEventPublisher;
 
 	public void setMessageSource(MessageSource messageSource) {
 		this.messageSource = messageSource;
@@ -66,6 +70,9 @@ public class Cashier implements BeanNameAware{
 	
 	public void checkout(ShoppingCart cart) throws IOException{
 		writer.write(new Date() + "\t" + cart.getItems() + "\r\n");
+		//5.2.24 추가
+		CheckoutEvent event = new CheckoutEvent(cart, cart, new Date());
+		applicationEventPublisher.publishEvent(event);
 	}
 	
 	@PreDestroy

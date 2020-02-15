@@ -9,7 +9,7 @@ public class Main {
 		
 		AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext();
 		context.getEnvironment().setActiveProfiles("global", "winter");
-		context.scan("recipe5_2_14.com.pojo.shop");
+		context.scan("com.pojo.shop");
 		context.refresh();
 		
 		
