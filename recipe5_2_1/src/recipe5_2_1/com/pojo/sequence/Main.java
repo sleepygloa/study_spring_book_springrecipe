@@ -29,18 +29,18 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//1. Configuration 과 Bean
-//		ApplicationContext context= new AnnotationConfigApplicationContext(SequenceGeneratorConfiguration.class);
-//		SequenceGenerator generator = context.getBean(SequenceGenerator.class);
-//		
-//		System.out.println(generator.getSequence());
-//		System.out.println(generator.getSequence());
+		ApplicationContext context= new AnnotationConfigApplicationContext(SequenceGeneratorConfiguration.class);
+		SequenceGenerator generator = context.getBean(SequenceGenerator.class);
+		
+		System.out.println(generator.getSequence());
+		System.out.println(generator.getSequence());
 		
 		//2.
-		ApplicationContext context= new AnnotationConfigApplicationContext("recipe5_2_1.com.pojo.sequence");
-		SequenceDao sequenceDao = context.getBean(SequenceDao.class);
-		
-		System.out.println(sequenceDao.getNextValue("IT"));
-		System.out.println(sequenceDao.getNextValue("IT"));		
+//		ApplicationContext context= new AnnotationConfigApplicationContext("recipe5_2_1.com.pojo.sequence");
+//		SequenceDao sequenceDao = context.getBean(SequenceDao.class);
+//		
+//		System.out.println(sequenceDao.getNextValue("IT"));
+//		System.out.println(sequenceDao.getNextValue("IT"));		
 
 	}
 

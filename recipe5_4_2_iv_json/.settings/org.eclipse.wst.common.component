@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+	<wb-module deploy-name="recipe5_4_2_iv_json">
+		<property name="context-root" value="recipe5_4_2_iv_json"/>
+		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
+	</wb-module>
+</project-modules>

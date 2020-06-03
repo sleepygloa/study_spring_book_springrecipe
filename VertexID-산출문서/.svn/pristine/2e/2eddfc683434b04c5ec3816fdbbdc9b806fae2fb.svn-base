@@ -1,0 +1,203 @@
+DBLink,DBLINK,database link,X,X,X,X
+FROM,FR,from,X,X,X,X
+FTP,FTP,file transfer protocol,X,X,X,X
+ID,ID,identification,X,X,X,X
+KEY,KEY,key,X,X,X,X
+LOT,LOT,lot,X,X,X,X
+NULL,NULL,null,X,X,X,X
+TO,TO,to,X,X,X,X
+WAVE,WAVE,wave,X,X,X,X
+XML,XML,extensible martkup language,X,X,X,X
+가공,MANF,manufacture,X,X,X,X
+가로,HORIZONTAL,horizontal,X,X,X,X
+간격,INTV,interval,X,X,X,X
+거래,DEAL,deal,X,X,X,X
+검수,EXAM,examination,X,X,X,X
+결품,SOLDOUT,sold out,X,X,X,X
+경로,PATH,path,X,X,X,X
+고객사,CLIENT,client,X,X,X,X
+공급,SUPPLY,supply,X,X,X,X
+공급처,SUPPLIER,supplier,X,X,X,X
+과세,TAX,taxation,X,X,X,X
+구분자,DLMT,delimiter,X,X,X,X
+구성,PART,parts,X,X,X,X
+구역,AREA,area,X,X,X,X
+국가,COUNTRY,country,X,X,X,X
+권역,DOMAIN,domain,X,X,X,X
+규격,SPEC,specification,X,X,X,X
+규칙,RULE,rule,X,X,X,X
+그룹,GROUP,group,X,X,X,X
+기간,TERM,term,X,X,X,X
+기본,BASIC,basic,X,X,X,X
+기준,STD,standard,X,X,X,X
+기초,INIT,initial,X,X,X,X
+기한,EXPIRY,expiry,X,X,X,X
+길이,LEN,length,X,X,X,X
+날짜,DATE,date,X,X,X,X
+남녀,MOF,male or female,X,X,X,X
+높이,HEIGHT,height,X,X,X,X
+다음,NEXT,next,X,X,X,X
+단,LEV,level,X,X,X,X
+단가,COST,cost,X,X,X,X
+단위,UOM,uom,X,X,X,X
+담당자,CONTACT,contact,X,X,X,X
+대,LARGE,large,X,X,X,X
+대상,TGT,target,X,X,X,X
+대체,REPLACE,replace,X,X,X,X
+대표자,CEO,ceo,X,X,X,X
+도시,CITY,city,X,X,X,X
+동일,EQ,equal,X,X,X,X
+등록,IN,insert,X,X,X,X
+로케이션,LOC,location,X,X,X,X
+매핑,MAPP,mapping,X,X,X,X
+문자,STR,string,X,X,X,X
+물류센터,DC,distribution center,X,X,X,X
+미배송,NDELIVERY,not delivery,X,X,X,X
+미입고,NIB,not inbound,X,X,X,X
+미출고,NOB,not outbound,X,X,X,X
+바코드,BARCODE,barcode,X,X,X,X
+박스,BOX,box,X,X,X,X
+반입,RI,return inbound,X,X,X,X
+반출,RO,return outbound,X,X,X,X
+발주,PO,purchase order,X,X,X,X
+방법,METHD,method,X,X,X,X
+배분,ALLOT,allotment,X,X,X,X
+배송,DELIVERY,delivery,X,X,X,X
+배송처,STORE,store,X,X,X,X
+범위,RNG,range,X,X,X,X
+변경,CHG,change,X,X,X,X
+변환,CONV,conversion,X,X,X,X
+보관,KEEP,keep,X,X,X,X
+보류,HOLD,hold,X,X,X,X
+보충,REPL,replenish,X,X,X,X
+부가세,VAT,value additional tax,X,X,X,X
+분류,CLASS,class,X,X,X,X
+분배,DIV,devision,X,X,X,X
+비고,REMARK,remark,X,X,X,X
+사업자,BIZ,business,X,X,X,X
+사용,USE,use,X,X,X,X
+사용자,USER,user,X,X,X,X
+사유,RS,reason,X,X,X,X
+사이즈,SIZE,size,X,X,X,X
+삭제,DEL,delete,X,X,X,X
+상세,DETAIL,detail,X,X,X,X
+상위,HIGHRK,high rank,X,X,X,X
+상차,CARLD,car loading,X,X,X,X
+서머타임,SUMMTIME,summertime,X,X,X,X
+서버,SV,server,X,X,X,X
+선출,FO,first out,X,X,X,X
+설명,DESC,description,X,X,X,X
+설정,SETUP,set up,X,X,X,X
+세로,VERTICAL,vertical,X,X,X,X
+세트,SET,set,X,X,X,X
+소,SMALL,small,X,X,X,X
+소수점,DCM,decimal,X,X,X,X
+속성,ATTR,attribute,X,X,X,X
+송수신,RTX,receive-transmit,X,X,X,X
+송신,TX,transmit,X,X,X,X
+수불,INOUT,in/outbound,X,X,X,X
+수신,RX,receive,X,X,X,X
+수정,UP,update,X,X,X,X
+스케쥴,SCHD,schedule,X,X,X,X
+스타일,STYLE,style,X,X,X,X
+승인,APPR,approval,X,X,X,X
+시간,TM,time,X,X,X,X
+시리얼,SERIAL,serial,X,X,X,X
+시작,START,start,X,X,X,X
+시즌,SEASON,season,X,X,X,X
+시차,TIMEDIFF,time different,X,X,X,X
+신규,NEW,new,X,X,X,X
+실배송처,RSTORE,real store,X,X,X,X
+실사,INSP,inspection,X,X,X,X
+실행,EXEC,execution,X,X,X,X
+암호,PW,password,X,X,X,X
+업종,BIZKIND,business kind,X,X,X,X
+업태,BIZTYPE,business type,X,X,X,X
+엑셀,EXCEL,excel,X,X,X,X
+열,ROW,row,X,X,X,X
+예정,PLAN,plan,X,X,X,X
+오류,ERR,error,X,X,X,X
+온도,TEMPE,temperature,X,X,X,X
+완료,FNSH,finish,X,X,X,X
+우선순위,PRIOORD,priority order,X,X,X,X
+우편,POST,post,X,X,X,X
+운영,OP,operate,X,X,X,X
+원격,RMT,remote,X,X,X,X
+원시,SRC,source,X,X,X,X
+위험물,DANGER,dangerous,X,X,X,X
+유통,DIST,distribution,X,X,X,X
+의뢰,REQ,request,X,X,X,X
+이고,TC,transfer center,X,X,X,X
+이고중,TRANSIT,in transit,X,X,X,X
+이동,MOVE,movement,X,X,X,X
+이력,HIST,history,X,X,X,X
+이메일,EMAIL,email,X,X,X,X
+인쇄,PRT,print,X,X,X,X
+인접,ADJA,adjacent,X,X,X,X
+일수,DAYS,number of days,X,X,X,X
+입고,IB,inbound,X,X,X,X
+입수,PKQTY,packing quentity,X,X,X,X
+입출고,IOB,in/outbound,X,X,X,X
+자료,DATA,data,X,X,X,X
+작업,WORK,work,X,X,X,X
+재고,STOCK,stock,X,X,X,X
+저장,SAVE,save,X,X,X,X
+적재,LOAD,load,X,X,X,X
+적정,OPTIMAL,optimal,X,X,X,X
+적치,PUTW,putaway,X,X,X,X
+전략,STRTG,strategy,X,X,X,X
+전화,TEL,telephone,X,X,X,X
+접두사,PREFIX,prefix,X,X,X,X
+접미사,SUFFIX,suffix,X,X,X,X
+정렬,SORT,sort,X,X,X,X
+정합,FIT,fit,X,X,X,X
+제외,EXCP,exception,X,X,X,X
+제품,ITEM,item,X,X,X,X
+조정,ADJS,adjustment,X,X,X,X
+존,ZONE,zone,X,X,X,X
+존재,EXIST,exist,X,X,X,X
+종료,END,end,X,X,X,X
+주기,CYCL,cycle,X,X,X,X
+주문,SO,sales order,X,X,X,X
+주소,ADDR,address,X,X,X,X
+중,MIDDLE,middle,X,X,X,X
+중량,WEIGHT,weight,X,X,X,X
+증가,RISE,rise,X,X,X,X
+지시,INST,instruction,X,X,X,X
+진행,PROG,progress,X,X,X,X
+차량,CAR,car,X,X,X,X
+차수,DGR,degree,X,X,X,X
+참조,REFER,reference,X,X,X,X
+채널,CHANNEL,channel,X,X,X,X
+처리,PROC,process,X,X,X,X
+체적,CBM,cubic meter,X,X,X,X
+최대,MAX,maximum,X,X,X,X
+최소,MIN,minimum,X,X,X,X
+최종,LAST,last,X,X,X,X
+최초,FIRST,first,X,X,X,X
+추가,ADD,add,X,X,X,X
+출고,OB,outbound,X,X,X,X
+캐랙터셋,CHARSET,character set,X,X,X,X
+컬러,COLOR,color,X,X,X,X
+컬럼,COL,column,X,X,X,X
+태그,TAG,tag,X,X,X,X
+테이블,TABLE,table,X,X,X,X
+파렛트,PLT,pallet,X,X,X,X
+파일,FILE,file,X,X,X,X
+패시브,PSV,passive,X,X,X,X
+팩스,FAX,facsimile ,X,X,X,X
+포트,PORT,port,X,X,X,X
+포함,INCL,inclusion,X,X,X,X
+프로시저,PROCD,procedure,X,X,X,X
+플래그,FLAG,flag,X,X,X,X
+피킹,PICK,picking,X,X,X,X
+필드,FIELD,field,X,X,X,X
+할당,ALLOC,allocation,X,X,X,X
+항목,OBJ,object,X,X,X,X
+행,LIN,line,X,X,X,X
+허용,ALW,allow,X,X,X,X
+헤더,HDL,head line,X,X,X,X
+호출,CALL,call,X,X,X,X
+혼적,MIXLOAD,mixed loading,X,X,X,X
+확정,CONF,confirm,X,X,X,X
+회사,COMPANY,company,X,X,X,X
